@@ -1,0 +1,49 @@
+{
+    "products": [
+        {
+            "flavors": [
+                {
+                    "architecture": {
+                        "diagrams": [
+                            {
+                                "description": "This is a place holder diagram.  Please create one.",
+                                "diagram": {
+                                    "caption": "Place holder",
+                                    "url": "https://raw.githubusercontent.com/benbuchanan/terraform-sample/migrated_offering_terraform_sample-1.0.0-1695138397/architecture-diagram-placeholder.drawio.svg"
+                                }
+                            }
+                        ],
+                        "features": [
+                            {
+                                "description": "edit me to suit your needs",
+                                "title": "Sample feature"
+                            }
+                        ]
+                    },
+                    "compliance": {},
+                    "configuration": [],
+                    "iam_permissions": [],
+                    "install_type": "fullstack",
+                    "label": "Standard",
+                    "name": "standard",
+                    "working_directory": "./"
+                }
+            ],
+            "keywords": [
+                "terraform"
+            ],
+            "label": "migrated offering terraform sample",
+            "long_description": "Detailed description to show at consumption",
+            "name": "migrated_offering_terraform_sample",
+            "offering_docs_url": "",
+            "offering_icon_url": "",
+            "product_kind": "solution",
+            "short_description": "Summary description to show on catalog tile",
+            "support_details": "Your support statement",
+            "tags": [
+                "compute",
+                "terraform"
+            ]
+        }
+    ]
+}
