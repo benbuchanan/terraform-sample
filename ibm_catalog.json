@@ -1,0 +1,49 @@
+{
+    "products": [
+        {
+            "flavors": [
+                {
+                    "architecture": {
+                        "diagrams": [
+                            {
+                                "description": "This is my diagram!",
+                                "diagram": {
+                                    "caption": "My diagram caption",
+                                    "url": "https://raw.githubusercontent.com/benbuchanan/terraform-sample/public_github_migrated_offering-1.0.3-1695674276/architecture-diagram-placeholder.drawio.svg"
+                                }
+                            }
+                        ],
+                        "features": [
+                            {
+                                "description": "my custom manifest feature description",
+                                "title": "my custom manifest feature title"
+                            }
+                        ]
+                    },
+                    "compliance": {},
+                    "configuration": [],
+                    "iam_permissions": [],
+                    "install_type": "fullstack",
+                    "label": "Quickstart",
+                    "name": "quickstart",
+                    "working_directory": "./"
+                }
+            ],
+            "keywords": [
+                "terraform"
+            ],
+            "label": "Public GitHub Existing Manifest Test",
+            "long_description": "Detailed description to show at consumption",
+            "name": "public_github_existing_manifest_test",
+            "offering_docs_url": "",
+            "offering_icon_url": "",
+            "product_kind": "solution",
+            "short_description": "Summary description to show on catalog tile",
+            "support_details": "Your support statement",
+            "tags": [
+                "compute",
+                "terraform"
+            ]
+        }
+    ]
+}
