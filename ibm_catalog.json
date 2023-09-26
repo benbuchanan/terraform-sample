@@ -54,9 +54,7 @@
               {
                 "diagram": {
                   "caption": "Terraform resources",
-                  "url_proxy": {
-                    "url": "https://github.ibm.com/cloud-finops/secrets-manager/blob/main/res/img/graph-v1.0.1.svg"
-                  },
+                  "url": "https://raw.githubusercontent.com/benbuchanan/terraform-sample/public_github_migrated_offering-1.0.3-1695674276/architecture-diagram-placeholder.drawio.svg",
                   "metadata": []
                 },
                 "description": "A view of the Terraform constructs used within the deployable architecture."
