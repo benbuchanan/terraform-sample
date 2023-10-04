@@ -21,7 +21,7 @@
               "label": "my script label",
               "type": "ansible",
               "path": "scripts/validate_pre_playbook.yaml"
-            },
+            }
           },
           "configuration": [
             {
