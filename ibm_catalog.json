@@ -16,6 +16,13 @@
           "label": "Standard",
           "name": "secrets-manager",
           "install_type": "fullstack",
+          "project_scripts": {
+            "validate_pre": {
+              "label": "my script label",
+              "type": "ansible",
+              "path": "scripts/validate_pre_playbook.yaml"
+            },
+          },
           "configuration": [
             {
               "key": "ibmcloud_api_key",
