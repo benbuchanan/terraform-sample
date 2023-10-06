@@ -16,8 +16,7 @@
           "label": "Standard",
           "name": "secrets-manager",
           "install_type": "fullstack",
-          "scripts": {}
-          },
+          "scripts": {},
           "configuration": [
             {
               "key": "name",
