@@ -20,7 +20,9 @@
             "validate_pre": {
               "label": "my script label",
               "type": "ansible",
-              "path": "scripts/validate_pre_playbook.yaml"
+              "path": "scripts/validate-pre-ansible-playbook.yaml",
+              "stage": "pre",
+              "action": "validate"
             }
           },
           "configuration": [
