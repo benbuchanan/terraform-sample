@@ -27,35 +27,12 @@
           },
           "configuration": [
             {
-              "key": "ibmcloud_api_key",
-              "type": "password",
-              "hidden": true
-            },
-            {
-              "key": "resource_tags",
+              "key": "name",
               "type": "string"
             },
             {
-              "key": "secrets_manager_instance_name",
+              "key": "invalid-test-key",
               "type": "string"
-            },
-            {
-              "key": "secrets_manager_plan",
-              "type": "string"
-            },
-            {
-              "key": "secrets_manager_region",
-              "type": "string"
-            },
-            {
-              "key": "secrets_manager_resource_group",
-              "type": "string"
-            }
-          ],
-          "outputs": [
-            {
-              "key": "secrets_manager_guid",
-              "description": "GUID of the Secrets Manager instance created"
             }
           ],
           "architecture": {
