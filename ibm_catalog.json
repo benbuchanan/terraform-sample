@@ -20,10 +20,6 @@
             {
               "label": "Validate Pre",
               "path": "scripts/validate-pre-ansible-playbook.yaml"
-            },
-            {
-              "label": "Undeploy Post",
-              "path": "scripts/undeploy-post-ansible-playbook.yaml"
             }
           ],
           "configuration": [
