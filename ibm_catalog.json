@@ -16,7 +16,16 @@
           "label": "Standard",
           "name": "secrets-manager",
           "install_type": "fullstack",
-          "scripts": {},
+          "scripts_list": [
+            {
+              "label": "Validate Pre",
+              "path": "scripts/validate-pre-ansible-playbook.yaml"
+            },
+            {
+              "label": "Undeploy Post",
+              "path": "scripts/undeploy-post-ansible-playbook.yaml"
+            }
+          ],
           "configuration": [
             {
               "key": "name",
