@@ -16,12 +16,14 @@
           "label": "Standard",
           "name": "secrets-manager",
           "install_type": "fullstack",
-          "scripts_list": [
-            {
-              "label": "Validate Pre",
-              "path": "scripts/validate-pre-ansible-playbook.yaml"
+          "scripts": {
+            "validate_pre_ansible": {
+              "label": "Validate Pre Ansible"
+            },
+            "deploy_pre_ansible": {
+              "label": "Deploy Pre Ansible"
             }
-          ],
+          },
           "configuration": [
             {
               "key": "name",
