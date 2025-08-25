@@ -1,0 +1,60 @@
+{
+    "products": [
+        {
+            "label": "terraform-sample-1.1.0",
+            "name": "terraform-sample-1.1.0",
+            "product_kind": "software",
+            "tags": ["virtualservers"],
+            "keywords": [],
+            "short_description": "",
+            "long_description": "",
+            "offering_docs_url": "",
+            "offering_icon_url": "https://globalcatalog.test.cloud.ibm.com/api/v1/1082e7d2-5e2f-0a11-a3bc-f88a8e1931fc/artifacts/terraform.svg",
+            "features": [],
+            "flavors": [
+                {
+                    "label": "",
+                    "name": "",
+                    "working_directory": ".",
+                    "licenses": [],
+                    "compliance": {},
+                    "iam_permissions": [],
+                    "architecture": {
+                        "features": [],
+                        "diagrams": []
+                    },
+                    "release_notes_url": "",
+                    "configuration": [
+                        {
+                            "key": "name",
+                            "type": "string",
+                            "default_value": "__NOT_SET__",
+                            "value_constraints": [
+                                {
+                                    "type": "regex",
+                                    "description": "Must contain only characters 'a', 'b', or 'c'.",
+                                    "value": "^[abc]+$"
+                                }
+                            ],
+                            "description": "The name to pass to the template.",
+                            "required": true,
+                            "custom_config": {
+                                "type": "array",
+                                "grouping": "deployment",
+                                "original_grouping": "deployment",
+                                "config_constraints": {
+                                    "type": "string"
+                                }
+                            },
+                            "virtual": false
+                        }
+                    ],
+                    "terraform_version": "",
+                    "outputs": [],
+                    "scripts": [],
+                    "change_notices": {}
+                }
+            ]
+        }
+    ]
+}
